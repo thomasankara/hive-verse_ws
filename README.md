@@ -24,6 +24,8 @@ A ROS 2 **Humble** + **Gazebo Harmonic** simulation workspace dedicated to sp
 
 ```
 hive-verse_ws/
+├── scripts/                       # helper & bootstrap scripts
+│   └── install_requirements.sh  
 └── src/
     ├── hive_worlds/               # .sdf worlds, textures
     │   └── worlds/
